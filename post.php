@@ -34,8 +34,7 @@
       Quam nemo recusandae cum hic, rerum numquam voluptatum iste accusamus dolorem et sequi rem, optio tempore laborum minima sunt at voluptatem eos expedita commodi, unde veniam! Vitae facere quae libero!
       Ab quisquam placeat sunt odit minus neque dolore sint harum velit assumenda error obcaecati, suscipit dolor commodi, numquam, alias quidem est maiores delectus. Dolorum, ad sequi. Unde perspiciatis dolore quidem.</p>
     </div>
-  </main>
-  <aside id="nav-container">
+    <aside id="nav-container">
     <h3 id="tags-title">Tags</h3>
       <ul id="tag-list">
         <?php foreach($currentPost['tags'] as $tag): ?>
@@ -48,7 +47,8 @@
           <li><a href="#"><?= $category ?></a></li>
         <?php endforeach; ?>
       </ul>
-  </aside>
+    </aside>
+  </main>
 
 <?php 
   include_once("templates/footer.php");
